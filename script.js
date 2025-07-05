@@ -1,3 +1,4 @@
+
 let video = document.getElementById("video");
 let canvas = document.getElementById("canvas");
 let captureBtn = document.getElementById("capture-btn");
