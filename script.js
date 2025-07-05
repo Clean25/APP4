@@ -1,4 +1,3 @@
-
 let video = document.getElementById("video");
 let canvas = document.getElementById("canvas");
 let captureBtn = document.getElementById("capture-btn");
@@ -161,8 +160,8 @@ pdfBtn.onclick = async () => {
   doc.setFontSize(14);
   doc.text("FORMATO DE INSPECCIÓN DE INSTALACIÓN RER AUTÓNOMA", 10, 20);
   doc.setFontSize(11);
-  doc.text(`Fecha de Inspección: ${campos["fecha_inspeccion"] || ""}`, 10, 30);
-  doc.text(`Código de Usuario: ${campos["codigo_usuario"] || ""}`, 10, 40);
+  const estado = document.getElementById("estado-usuario")?.value || "No especificado";
+  doc.text(`Estado del Usuario: ${estado}`, 10, 30);
 
   let y = 50;
   for (let i = 0; i < secciones.length; i++) {
