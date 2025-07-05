@@ -73,8 +73,8 @@
         "tipo": "text"
       },
       {
-        "id": "telefono_localidad",
-        "etiqueta": "2.9. Teléfono de la localidad",
+        "id": "telefono_representante",
+        "etiqueta": "2.9. Teléfono del representante",
         "tipo": "text"
       }
     ]
